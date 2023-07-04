@@ -30,9 +30,9 @@ function tomaPedido(numeroMesa, sector){
     let ordenMesa = ""
 
      do {
-         console.log(ordenMesa);
-         for(i=1; i<=12; i++){
-             ordenMesa = prompt("Ingrese la orden de la mesa N° " +(i +numeroMesa) +". Si quiere seleccionar la mesa siguiente, deje la casilla en blanco. Si quiere volver al inicio, digite FINALIZAR")
+        console.log(ordenMesa);
+        for(i=1; i<=12; i++){
+            ordenMesa = prompt("Ingrese la orden de la mesa N° " +(i +numeroMesa) +". Si quiere seleccionar la mesa siguiente, deje la casilla en blanco. Si quiere volver al inicio, digite FINALIZAR")
             if (ordenMesa.toUpperCase() === finTurno){
                 break;
             }
